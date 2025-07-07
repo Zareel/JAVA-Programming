@@ -2,7 +2,23 @@
 public class SmartAppliance{
    public  String applianceName;
    public  String applianceType;
-    public String powerStatus;
+   public String powerStatus;
+
+      public SmartAppliance setApplianceName(String applianceName){
+       this.applianceName = applianceName;
+       return this;
+   }
+
+   public SmartAppliance setApplianceType(String applianceType){
+       this.applianceType = applianceType;
+       return this;
+   }
+
+   public SmartAppliance setPowerStatus(String powerStatus){
+       this.powerStatus = powerStatus;
+       return this;
+   }
+
 
     // SmartAppliance class has three fields. 
 

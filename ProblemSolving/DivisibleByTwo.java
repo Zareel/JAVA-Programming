@@ -1,4 +1,4 @@
-package AL;
+
 import java.util.ArrayList;
 public class DivisibleByTwo {
     public static void main(String[] args){
